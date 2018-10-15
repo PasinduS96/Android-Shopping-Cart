@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2E4053  </color>
+    <color name="colorPrimaryDark">#273746</color>
+    <color name="colorAccent">#16A085</color>
+    <color name="backColor">#FFFFFF</color>
+    <color name="btnAddColor">#E74C3C</color>
+    <color name="textColor1">#FDFEFE</color>
+    <color name="viewButtonColor">#2ECC71</color>
+    <color name="linkColor">#3498DB</color>
+    <color name="priceColor">#E74C3C</color>
+
+</resources>

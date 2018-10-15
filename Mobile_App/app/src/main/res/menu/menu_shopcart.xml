@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/shop_cart_top"
+        android:icon="@drawable/icon_bag_24px"
+        android:title="@string/shopping_list"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/exit_top"
+        android:icon="@drawable/exit"
+        android:title="@string/exit"
+        app:showAsAction="always" />
+
+</menu>

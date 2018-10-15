@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pasindusenarathne.mobile_app.UpdateItem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/uniit_code_update"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:layout_marginBottom="10sp"
+            android:saveEnabled="false"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:editable="false"
+            android:focusable="false"
+            android:hint="Unit Code"
+            android:onClick="alert"
+            android:drawableLeft="@drawable/tag"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:id="@+id/item_name_update"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Item Name"
+            android:drawableLeft="@drawable/item"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:id="@+id/price_update"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Price"
+            android:drawableLeft="@drawable/price"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:id="@+id/disc_update"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Discription"
+            android:drawableLeft="@drawable/dis"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:id="@+id/ava_update"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Availablility"
+            android:drawableLeft="@drawable/ava"
+            android:drawablePadding="10dp"/>
+
+        <Button
+            android:id="@+id/updating_button"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:textColor="@color/textColor1"
+            android:background="@drawable/green_rounded_button"
+            android:layout_marginBottom="30sp"
+            android:layout_height="70dp"
+            android:text="Update" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

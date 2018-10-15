@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pasindusenarathne.mobile_app.Informer">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/u_code"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="80dp"
+            android:text="test"
+            android:drawableLeft="@drawable/tag"
+            android:padding="15dp"
+            android:ems="10"
+            android:drawablePadding="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10sp"
+            android:drawableLeft="@drawable/item"
+            android:ems="10"
+            android:text="test"
+            android:padding="15dp"
+            android:tooltipText="Item Name"
+            android:drawablePadding="15dp"
+            />
+
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="test"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10sp"
+            android:drawableLeft="@drawable/price"
+            android:ems="10"
+            android:padding="15dp"
+            android:drawablePadding="15dp"/>
+
+        <TextView
+            android:id="@+id/item_dis"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10sp"
+            android:drawableLeft="@drawable/dis"
+            android:drawablePadding="15dp"
+            android:padding="15dp"
+            android:text="test"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/a_item"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10sp"
+            android:drawableLeft="@drawable/ava"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:padding="15dp"
+            android:text="test" />
+
+
+        <Button
+            android:id="@+id/update_button_informer"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/green_rounded_button"
+            android:textColor="@color/textColor1"
+            android:layout_marginTop="20dp"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/delete_button_informer"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/textColor1"
+            android:background="@drawable/red_rounded_button1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Remove" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
